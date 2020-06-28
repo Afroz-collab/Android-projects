@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:text="@string/text"
+        android:textSize="100sp"
+        android:textColor="@color/color_black"
+        android:gravity="center"
+        android:background="@color/background_color"
+        android:id="@+id/text"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/background_color">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/btn_inc"
+            android:textSize="30sp"
+            android:background="@color/btn"
+            android:layout_marginRight="7dp"
+            android:id="@+id/btn_inc"
+            android:shadowColor="@color/color_black"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/btn_dec"
+            android:textSize="30sp"
+            android:background="@color/btn"
+            android:layout_marginRight="7dp"
+            android:id="@+id/btn_dec"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/btn_reset"
+            android:textSize="25sp"
+            android:background="@color/btn"
+            android:layout_marginRight="7dp"
+            android:id="@+id/btn_reset"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/btn_toast"
+            android:textSize="25sp"
+            android:background="@color/btn"
+            android:id="@+id/btn_toast"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
