@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name = "color_white">#fff</color>
+    <color name = "color_black">#000</color>
+    <color name = "input_text">#06BCAB</color>
+    <color name = "btn">#B72ACF</color>
+
+    <color name = "homePrimary">#56D6E6</color>
+    <color name = "homePrimaryDark">#14A2E3</color>
+
+    <color name = "registerPrimary">#E46941</color>
+    <color name ="registerPrimaryDark">#E84612</color>
+
+</resources>
