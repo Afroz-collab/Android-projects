@@ -1,6 +1,6 @@
 # Android App Development 
 Android-projects
 
-NumberCount APP 
-ScoreCount APP
-Login APP
+# NumberCount App
+# ScoreCount App
+# Login App
