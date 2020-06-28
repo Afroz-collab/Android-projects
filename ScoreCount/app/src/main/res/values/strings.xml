@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScoreCount</string>
+    <string name = "team_a">TEAM - A</string>
+    <string name="team_b">TEAM - B</string>
+    <string name="score">0</string>
+    <string name = "plus_1">ADD +1 to Score</string>
+    <string name = "plus_2">ADD +2 to Score</string>
+    <string name = "plus_3">ADD +3 to Score</string>
+    <string name="reset">Reset</string>
+    <string name = "noLand">NO LANDSCAPE MODE</string>
+</resources>

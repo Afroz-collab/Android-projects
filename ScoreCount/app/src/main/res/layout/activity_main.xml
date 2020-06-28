@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/team_a"
+            android:textSize="35sp"
+            android:textColor="@color/color_text"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/team_a"
+            android:layout_marginStart="17dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textSize="100sp"
+            android:textColor="@color/color_black"
+            android:gravity="center"
+            android:id="@+id/score_a"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/plus_1"
+            android:textSize="13sp"
+            android:textColor="@color/color_white"
+            android:background="@color/color_btn_1"
+            android:id="@+id/plus_1_a"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/plus_2"
+            android:textSize="13sp"
+            android:textColor="@color/color_white"
+            android:background="@color/color_btn_2"
+            android:id="@+id/plus_2_a"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/plus_3"
+            android:textSize="13sp"
+            android:textColor="@color/color_white"
+            android:background="@color/color_btn_3"
+            android:id="@+id/plus_3_a"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/reset"
+            android:textSize="20sp"
+            android:textColor="@color/color_white"
+            android:background="@color/color_btn_r"
+            android:id="@+id/reset_a"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/team_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/team_b"
+            android:textColor="@color/color_text"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/score_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/score"
+            android:textColor="@color/color_black"
+            android:textSize="100sp" />
+
+        <Button
+            android:id="@+id/plus_1_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/color_btn_1"
+            android:text="@string/plus_1"
+            android:textColor="@color/color_white"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/plus_2_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/color_btn_2"
+            android:text="@string/plus_2"
+            android:textColor="@color/color_white"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/plus_3_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/color_btn_3"
+            android:text="@string/plus_3"
+            android:textColor="@color/color_white"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/reset_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/color_btn_r"
+            android:text="@string/reset"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/noLand"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="8.5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
