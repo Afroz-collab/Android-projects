@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NumberCount</string>
+    <string name = "text">0</string>
+    <string name = "btn_inc">+</string>
+    <string name="btn_dec">-</string>
+    <string name = "btn_reset">Reset</string>
+    <string name="btn_toast">Toast</string>
+</resources>
