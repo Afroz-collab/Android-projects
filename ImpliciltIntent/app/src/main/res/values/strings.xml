@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImpliciltIntent</string>
+
+    <string name="btn_google">GOOGLE</string>
+    <string name = "btn_call">CALL</string>
+    <string name = "btn_loc">Location</string>
+    <string name = "btn_share">SHARE</string>
+</resources>
