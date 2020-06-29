@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShareText</string>
+    <string name="msg">Enter the message</string>
+    <string name = "btn_share">SHARE</string>
+</resources>
