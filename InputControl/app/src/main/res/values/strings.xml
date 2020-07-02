@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InputControl</string>
+    <string name="submit">Submit</string>
+    <string name="data_screen">Data Screen</string>
+    <string name="number">Number</string>
+    <string name="hint_name">Enter Your Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="java">java</string>
+    <string name="head_ch">Choose the language</string>
+    <string name="python">Python</string>
+    <string name="ruby">Ruby</string>
+</resources>

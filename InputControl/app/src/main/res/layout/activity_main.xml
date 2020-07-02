@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/edit_text"
+            android:textSize="20sp"
+            android:hint="@string/hint_name"
+            android:inputType="textCapWords"
+            android:id="@+id/name"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/edit_text"
+            android:textSize="20sp"
+            android:hint="@string/number"
+            android:inputType="phone"
+            android:id="@+id/ph_number"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/edit_text"
+            android:textSize="20sp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/edit_text"
+            android:textSize="20sp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:id="@+id/pass"
+            />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp">
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/male"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/male"
+             />
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/female"
+                android:textSize="25sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/female"
+                 />
+
+        </RadioGroup>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/head_ch"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20sp"
+            />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/java"
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/ch_java"
+            />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/python"
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/ch_python"
+            />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/ruby"
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/ch_ruby"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/submit"
+            android:textColor="@color/color_white"
+            android:background="@color/btn_sub"
+            android:textSize="27sp"
+            android:id="@+id/btn_sub"
+            android:onClick="Submit"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/data_screen"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/text_view"
+            android:id="@+id/text_view"
+            />
+
+    </LinearLayout>
+</ScrollView>
